@@ -409,7 +409,7 @@ static void catch_sig(int sig)
 
 if (ptyfd < 0)
   {
-#ifdef SVR4
+#if defined(SVR4) || defined(__NetBSD__)
     ptyfd = open("/dev/ptmx",O_RDWR);
     if (ptyfd < 0) 
       {
@@ -419,7 +419,7 @@ if (ptyfd < 0)
     grantpt(ptyfd);
     unlockpt(ptyfd);
     fcntl(ptyfd,F_SETFL,O_NDELAY);
-    ttynam=ptsname(ptyfd);
+    strcpy(ttynam, ptsname(ptyfd));
 #else
     strcpy(ptynam, "/dev/ptyxx");
     strcpy(ttynam, "/dev/ttyxx");
