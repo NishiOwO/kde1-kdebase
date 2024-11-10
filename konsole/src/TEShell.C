@@ -224,6 +224,18 @@ int Shell::openShell()
     }
   }
 #endif
+#ifdef __NetBSD__
+  if(ptyfd < 0){
+  strcpy(ptynam,"/dev/ptmx");
+  ptyfd = open(ptynam,O_RDWR);
+  if(ptyfd >= 0){
+    grantpt(ptyfd);
+    unlockpt(ptyfd);
+    strcpy(ttynam, ptsname(ptyfd));
+    needGrantPty = FALSE;
+  }
+  }
+#endif
 
 #if defined(_SCO_DS) || defined(__USLC__) /* SCO OSr5 and UnixWare */
   if (ptyfd < 0)

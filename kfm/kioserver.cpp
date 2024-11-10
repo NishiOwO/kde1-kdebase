@@ -803,11 +803,11 @@ void KIOServer::runNewSlave()
     // Keep in sync with the same in kioserver_ipc.cpp!
     QString idir;
     idir.sprintf(_PATH_TMP"/kio_%i_%i%s",(int)getuid(), (int)getpid(),displayName().data());
-    
+
     if ( fork() == 0 )
     {
         execlp( ipath.data(), "kioslave", idir.data(), 0 );
-	fatal( "ERROR: Could not start kioslave\n");
+	fatal( "ERROR: Could not start kioslave :(\n");
         exit( 1 );
     }
 }

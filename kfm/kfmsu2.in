@@ -4,7 +4,7 @@ echo "--------------"
 echo ""
 
 HAS_LOCAL="$(xhost | grep -q LOCAL && echo true)"
-if [[ "$HAS_LOCAL" != "true" ]]; then
+if [ ! "$HAS_LOCAL" = "true" ]; then
   echo "Allowing ALL (!) local users to use this display"
   xhost +local:
 fi
@@ -21,6 +21,6 @@ fi
 
 su - root -c "DISPLAY=$DISPLAY; export DISPLAY; $kfm -sw >/dev/null"
 
-if [[ "$HAS_LOCAL" != "true" ]]; then
+if [ ! "$HAS_LOCAL" = "true" ]; then
     xhost -local:
 fi
