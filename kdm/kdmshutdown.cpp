@@ -28,7 +28,9 @@
 #include "kdmconfig.h" // for shutdown-modes
 #include <pwd.h>
 #ifdef HAVE_CRYPT_H
+#ifndef __NetBSD__
 # include <crypt.h>
+#endif
 #endif
 #ifdef USE_PAM
 extern "C" {

@@ -6,6 +6,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-27 01:14+0100\n"
 "PO-Revision-Date: 1998-10-19 21:30+0200\n"
 "Last-Translator: Logi Ragnarsson <logir>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: configlist.cpp:121
 msgid "Unknown module: "

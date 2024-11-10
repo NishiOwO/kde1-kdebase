@@ -12,6 +12,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Content-Type: charset=iso-8859-1\n"
 
 #: attraction.cpp:718
 msgid "Attraction"

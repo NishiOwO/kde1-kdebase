@@ -4,6 +4,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-27 01:14+0100\n"
 "PO-Revision-Date: 1998-01-22 17:20+0100\n"
 "Last-Translator: Andrea Rizzi <BILIBAO@ouverture.it>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: configlist.cpp:121
 msgid "Unknown module: "

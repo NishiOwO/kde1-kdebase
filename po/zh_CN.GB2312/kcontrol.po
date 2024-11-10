@@ -4,6 +4,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-27 01:14+0100\n"
 "PO-Revision-Date: 1999-03-29 18:40+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
+"Content-Type: charset=iso-8859-1\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 "Translator: Wang Jian <larkw@263.net>\n"
 

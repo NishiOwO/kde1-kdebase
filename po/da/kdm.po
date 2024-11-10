@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Bo Thorsen <gobo@imada.sdu.dk>\n"
 "Language-Team: <da@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: kdmshutdown.cpp:176

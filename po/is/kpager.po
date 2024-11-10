@@ -7,6 +7,7 @@ msgstr ""
 "PO-Revision-Date: 1998-12-17 22:28+0100\n"
 "Last-Translator: Logi Ragnarsson <logir@hi.is>\n"
 "Language-Team: ia <kde-isl@mmedia.is>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: kpager.cpp:72
 msgid "Toggle Global Desktop"

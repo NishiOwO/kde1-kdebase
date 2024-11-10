@@ -56,6 +56,20 @@ add_executable(kdmdesktop
 #target_compile_definitions(kdm PRIVATE XDMDIR="${XDMDIR}")
 #target_compile_definitions(kdmdesktop PRIVATE XDMDIR="${XDMDIR}")
 
+if (CMAKE_SYSTEM_NAME MATCHES "NetBSD")
+target_link_libraries(kdm
+    Qt::Qt1
+    X11::X11
+    X11::Xdmcp
+    X11::Xau
+    crypt
+    ${PAM_LIBRARIES}
+    ${KDE1_KDECORE}
+    ${KDE1_KFILE}
+    ${KDE1_KIMGIO}
+    ${KDE1_KDEUI}
+    )
+else()
 target_link_libraries(kdm
     Qt::Qt1
     X11::X11
@@ -68,6 +82,7 @@ target_link_libraries(kdm
     ${KDE1_KIMGIO}
     ${KDE1_KDEUI}
     )
+endif()
 
 target_link_libraries(kdmdesktop
     X11::X11

@@ -23,6 +23,9 @@
 
 #ifndef __osf__
 #ifdef BSD
+struct mymsg {
+	long mtype;
+};
 #define msgbuf mymsg
 #endif
 #endif

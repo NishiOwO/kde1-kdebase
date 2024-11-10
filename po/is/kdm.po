@@ -8,6 +8,7 @@ msgstr ""
 "PO-Revision-Date: 1998-10-28 19:00-0500\n"
 "Last-Translator: Logi Ragnarsson <logir@hi.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: kdmshutdown.cpp:176
 msgid "Shutdown or restart?"

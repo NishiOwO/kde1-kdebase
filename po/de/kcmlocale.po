@@ -5,6 +5,7 @@ msgstr ""
 "PO-Revision-Date: 1999-03-27 21:08+MET\n"
 "Last-Translator: Thomas Diehl <th.diehl@gmx.net>\n"
 "Translator: Stephan Kulow <coolo@kde.org>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: main.cpp:52
 msgid "&Locale"

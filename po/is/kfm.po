@@ -7,6 +7,7 @@ msgstr ""
 "PO-Revision-Date: 1999-02-13-10:30+0100\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: kfmgui.cpp:204
 msgid "KFM"

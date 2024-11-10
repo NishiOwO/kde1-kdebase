@@ -4,6 +4,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-28 01:15+0100\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: main.cpp:64
 msgid "&Panel"

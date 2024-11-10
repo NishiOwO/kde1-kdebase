@@ -9,7 +9,7 @@ msgstr ""
 "Last-Translator: Francois-Xavier Duranceau <duranceau@kde.org>\n"
 "Language-Team: LANGUAGE <fr@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: theme.cpp:164

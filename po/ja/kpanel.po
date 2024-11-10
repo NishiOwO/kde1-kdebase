@@ -7,7 +7,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-
+"Content-Type: charset=iso-8859-1\n"
 #: kpanel.C:296
 msgid "&Move"
 msgstr "°ÜÆ°(&M)"

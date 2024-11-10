@@ -299,3 +299,6 @@ void srandom(unsigned int seed);
 /* Version number of package */
 #define VERSION "1.1.2"
 
+#ifdef __NetBSD__
+#undef HAVE_LASTLOG_H
+#endif

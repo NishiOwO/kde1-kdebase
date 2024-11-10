@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Wang Jian <larkw@263.net>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=GB2312-80\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: kpager.cpp:72

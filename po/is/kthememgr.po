@@ -9,6 +9,7 @@ msgstr ""
 "PO-Revision-Date: 1999-09-05 01:30+0000\n"
 "Last-Translator: Bjarni R. Einarsson <bre@netverjar.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: theme.cpp:164
 msgid "Mappings file theme.mappings not found."

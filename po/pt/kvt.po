@@ -5,7 +5,7 @@ msgstr ""
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
 "MIME-Version:\n"
-"Content-Type:\n"
+"Content-Type: charset=iso-8859-1\n"
 "Content-Transfer-Encoding:\n"
 "PO-Revision-Dated: 1997-08-26 14:27:08+0200\n"
 

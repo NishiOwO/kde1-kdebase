@@ -54,7 +54,9 @@ from the X Consortium.
 # include <usersec.h>
 #endif
 #ifdef HAVE_CRYPT_H
+#ifndef __NetBSD__
 # include <crypt.h>
+#endif
 #endif
 #ifdef HAVE_RPC_RPC_H
 # include <rpc/rpc.h>

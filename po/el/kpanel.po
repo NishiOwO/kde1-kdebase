@@ -4,6 +4,7 @@ msgstr ""
 "POT-Creation-Date: 1999-04-24 01:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: kpanel.C:296
 #, fuzzy

@@ -6,7 +6,7 @@ msgstr ""
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
 "MIME-Version:\n"
-"Content-Type:\n"
+"Content-Type: charset=iso-8859-1\n"
 "Content-Transfer-Encoding:\n"
 
 #: main.cpp:72

@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klock\n"
+"Content-Type: charset=iso-8859-1\n"
 "POT-Creation-Date: 1999-04-18 01:18+0200\n"
 "PO-Revision-Date: 1999-03-31 21:00+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"

@@ -15,6 +15,7 @@ msgstr ""
 "Date: 1997-09-09 17:23:06+0200\n"
 "Xgettext-Options: -s -C -ktranslate\n"
 "X-Generator: KTranslator v 0.5.0"
+"Content-Type: charset=iso-8859-1\n"
 
 #: kdmshutdown.cpp:176
 msgid "Shutdown or restart?"

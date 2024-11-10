@@ -38,7 +38,9 @@
 #endif
 
 #ifdef HAVE_CRYPT_H
+#ifndef __NetBSD__
 #include <crypt.h>
+#endif
 #endif
 
 #ifdef HAVE_PATHS_H

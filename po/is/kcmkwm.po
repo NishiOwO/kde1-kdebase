@@ -7,6 +7,7 @@ msgstr ""
 "PO-Revision-Date: 1998-10-26 22:36+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
+"Content-Type: charset=iso-8859-1\n"
 
 #: main.cpp:67
 msgid "&Buttons"
