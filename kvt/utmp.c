@@ -88,7 +88,9 @@
 #include <sys/stat.h>
 #include <sys/time.h>
 
+#ifndef __FreeBSD__
 #include <utmp.h>
+#endif
 #include <unistd.h>
 
 #ifdef HAVE_SYS_PARAM_H
