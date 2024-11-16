@@ -302,3 +302,7 @@ void srandom(unsigned int seed);
 #ifdef __NetBSD__
 #undef HAVE_LASTLOG_H
 #endif
+
+#ifdef __FreeBSD__
+#undef HAVE_LASTLOG_H
+#endif
