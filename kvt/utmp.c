@@ -282,7 +282,9 @@ void makeutent(char *ttyname)
   if (!gettimeofday(&tp,&tzp))
     u.ut_time = tp.tv_sec;
 #endif
+#ifndef __FreeBSD__
   strncpy(u.ut_name,pwent->pw_name,sizeof(u.ut_name));
+#endif
   (void) write_utmp(ttyname, &u);
 }
 
