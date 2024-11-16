@@ -324,7 +324,7 @@ void cTagTable::CreateTable(const char *filename)
 
 	while (FindMarker(stream))
 	{
-		offset = stream.tellg() - 2;
+		offset = stream.tellg() - std::istream::pos_type(2);
 		file = 0;
         node = 0;
 		stream.getline(buffer, 255);
