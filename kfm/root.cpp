@@ -876,7 +876,7 @@ void KRootWidget::update()
 	    if ( buffer[ 0 ] != 0 )
 	    {
 		const char *p = buffer;
-		char *p2 = strchr( p, ';' );
+		char *p2 = (char*)strchr( p, ';' );
 		*p2++ = 0;
 		QString u = p;
 		p = p2;
