@@ -1158,7 +1158,7 @@ void KFMManager::slotMimeType( const char *_type )
 	}    
 	if ( aCharset != 0 )
 	{
-	    tmp = strpbrk( aCharset, " ;\t\n" );
+	    tmp = (char*)strpbrk( aCharset, " ;\t\n" );
 	    if ( tmp != 0 )
 	      *tmp = 0;
 	}    
