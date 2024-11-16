@@ -90,6 +90,9 @@
 
 #ifndef __FreeBSD__
 #include <utmp.h>
+#else
+#include <utmpx.h>
+#define utmp utmpx
 #endif
 #include <unistd.h>
 
