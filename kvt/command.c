@@ -409,7 +409,7 @@ static void catch_sig(int sig)
 
 if (ptyfd < 0)
   {
-#if defined(SVR4) || defined(__NetBSD__)
+#if defined(SVR4) || defined(__NetBSD__) || defined(__FreeBSD__)
     ptyfd = open("/dev/ptmx",O_RDWR);
     if (ptyfd < 0) 
       {
