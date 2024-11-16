@@ -38,7 +38,7 @@
 #define HAVE_LIBPNG 1
 
 /* defines which to take for ksize_t */
-#define ksize_t socklen_t
+#define KSIZE_T socklen_t
 
 /* define if you have setenv */
 #define HAVE_FUNC_SETENV 1
