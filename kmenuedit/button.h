@@ -53,7 +53,11 @@ protected:
   bool    greyed;
 
   // drag and drop stuff
+#ifdef __FreeBSD__
+  virtual Window findRootWindow( QPoint & p );
+#else
   virtual Window EditButton::findRootWindow( QPoint & p );
+#endif
   virtual void mouseMoveEvent( QMouseEvent * );
   virtual void mouseReleaseEvent( QMouseEvent * );
   virtual void rootDropEvent( int _x, int _y );
