@@ -880,7 +880,7 @@ void KRootWidget::update()
 		*p2++ = 0;
 		QString u = p;
 		p = p2;
-		p2 = strchr( p, ';' );
+		p2 = (char*)strchr( p, ';' );
 		*p2++ = 0;
 		int x = atoi( p );
 		p = p2;
