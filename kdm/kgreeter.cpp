@@ -154,7 +154,11 @@ set_fixed( QWidget* w)
      w->setFixedSize( w->size());
 }
 
+#ifdef __FreeBSD__
+KGreeter::KGreeter(QWidget *parent, const char *t) 
+#else
 KGreeter::KGreeter(QWidget *parent = 0, const char *t = 0) 
+#endif
   : QWidget( parent, t, WStyle_Customize | WStyle_NoBorder | WStyle_Tool)
 {
      QFrame* winFrame = new QFrame( this);

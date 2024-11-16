@@ -72,7 +72,11 @@ protected:
 class KGreeter : public QWidget {
      Q_OBJECT
 public:
+#ifdef __FreeBSD__
+     KGreeter(QWidget *parent=0, const char *t=0);
+#else
      KGreeter(QWidget *parent, const char *t);
+#endif
      void ReturnPressed();
      void SetTimer();
 public slots:
