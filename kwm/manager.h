@@ -113,7 +113,11 @@ public:
   Client* getClient(Window w);
 
   // get a pointer to the Client object from the sizegrip
+#ifdef __FreeBSD__
+  Client* getClientFromSizegrip(Window w);
+#else
   Client* Manager::getClientFromSizegrip(Window w);
+#endif
 
   // returns the current client (the client which has the focus) or 0
   // if no client has the focus.
