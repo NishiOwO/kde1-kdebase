@@ -224,7 +224,7 @@ int Shell::openShell()
     }
   }
 #endif
-#ifdef __NetBSD__
+#if defined(__NetBSD__) || defined(__FreeBSD__)
   if(ptyfd < 0){
   strcpy(ptynam,"/dev/ptmx");
   ptyfd = open(ptynam,O_RDWR);
