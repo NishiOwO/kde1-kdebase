@@ -132,9 +132,9 @@ void Kfm::slotTouch()
 {
   // Prevent the sockets from being removed by the cleanup daemon of some systems.
   QString tmp;
-  tmp.sprintf("touch "_PATH_TMP"/kfm_%i_%i%s",(int)getuid(),(int)getpid(),displayName().data() );
+  tmp.sprintf("touch %s/kfm_%i_%i%s",_PATH_TMP,(int)getuid(),(int)getpid(),displayName().data() );
   system( tmp.data() );
-  tmp.sprintf("touch "_PATH_TMP"/kio_%i_%i%s",(int)getuid(),(int)getpid(),displayName().data() );
+  tmp.sprintf("touch %s/kio_%i_%i%s",_PATH_TMP,(int)getuid(),(int)getpid(),displayName().data() );
   system( tmp.data() );
 }
 
