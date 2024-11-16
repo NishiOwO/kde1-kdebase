@@ -503,7 +503,11 @@ bool Desktop::contains(Window w)
     return (getIndexOfWindow(w)==-1)? false : true;
 }
 
+#ifdef __FreeBSD__
+WindowProperties *Desktop::windowAtPosition(const QPoint *p,bool *ok,QPoint *pos)
+#else
 WindowProperties *Desktop::windowAtPosition(const QPoint *p,bool *ok,QPoint *pos=0L)
+#endif
 {
     WindowProperties *wp=window_list->last();
     if (wp==0L) 
