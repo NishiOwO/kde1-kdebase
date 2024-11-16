@@ -64,7 +64,9 @@ extern "C" {
 
 #ifdef HAVE_CRYPT_H
 #ifndef __NetBSD__
+#ifndef __FreeBSD__
 #include <crypt.h>
+#endif
 #endif
 #endif
 
