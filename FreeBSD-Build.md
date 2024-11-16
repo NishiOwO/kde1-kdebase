@@ -15,7 +15,7 @@ Requirements: `cmake` `jpeg-turbo`(or any jpeg) `tiff` `gettext`
 5. `gmake install` with root
 6. Create `/usr/local/libdata/ldconfig/kde1` with `/usr/kde1/lib`, then restart `ldconfig`
 ## 3. Build kde1-kdebase
-Requirements: `libGLU`
+Requirements: `libGLU` \
 Optional: `pulseaudio`
 1. `git clone https://github.com/nishiowo/kde1-kdebase && cd kde1-kdebase`
 2. `mkdir build && cd build`
