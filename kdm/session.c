@@ -55,7 +55,9 @@ from the X Consortium.
 #endif
 #ifdef HAVE_CRYPT_H
 #ifndef __NetBSD__
+#ifndef __FreeBSD__
 # include <crypt.h>
+#endif
 #endif
 #endif
 #ifdef HAVE_RPC_RPC_H
