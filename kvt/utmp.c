@@ -278,8 +278,10 @@ void makeutent(char *ttyname)
   /* and now the line: */
   l = sizeof(u.ut_line);
   strncpy(u.ut_line,ttyname,l);
+#ifndef __FreeBSD__
   if (!gettimeofday(&tp,&tzp))
     u.ut_time = tp.tv_sec;
+#endif
   strncpy(u.ut_name,pwent->pw_name,sizeof(u.ut_name));
   (void) write_utmp(ttyname, &u);
 }
