@@ -1,4 +1,4 @@
-set(GMOFILES ja
+set(GMOFILES ja_JP.EUCJP
 kbgndwm.gmo
 kcmbell.gmo
 kcmdisplay.gmo

@@ -1,4 +1,4 @@
-set(GMOFILES ja
+set(GMOFILES ja_JP.UTF-8
 kbgndwm.gmo
 kcmbell.gmo
 kcmdisplay.gmo
