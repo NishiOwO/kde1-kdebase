@@ -69,6 +69,19 @@ target_link_libraries(kdm
     ${KDE1_KIMGIO}
     ${KDE1_KDEUI}
     )
+elseif (CMAKE_SYSTEM_NAME MATCHES "FreeBSD")
+target_link_libraries(kdm
+    Qt::Qt1
+    X11::X11
+    X11::Xdmcp
+    X11::Xau
+    crypt
+    ${PAM_LIBRARIES}
+    ${KDE1_KDECORE}
+    ${KDE1_KFILE}
+    ${KDE1_KIMGIO}
+    ${KDE1_KDEUI}
+    )
 else()
 target_link_libraries(kdm
     Qt::Qt1
