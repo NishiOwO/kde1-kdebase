@@ -27,7 +27,7 @@
 #include <fcntl.h>
 #include <sys/ioctl.h>
 #include <sys/types.h>
-#include <machine/soundcard.h>  // Here UNIX_SOUND_SYSTEM gets defined
+#include <sys/soundcard.h>  // Here UNIX_SOUND_SYSTEM gets defined
 #define OSS_AUDIO
 #endif
 
