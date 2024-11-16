@@ -49,7 +49,11 @@ KFMServer::KFMServer() : KfmIpcServer()
 	}
 	
 	QString pass;
+#ifdef __FreeBSD__
+	time_t seed = time( NULL );
+#else
 	time_t seed = time( ( time_t ) 0 );
+#endif
 	DIR *dp = opendir("/tmp");
 	struct dirent *ep;
 	int num = 1, i; 
