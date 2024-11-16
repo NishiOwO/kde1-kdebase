@@ -269,7 +269,7 @@ int KProtocolFTP::ftpPort(void)
 		struct sockaddr_in in;
     } sin;
     struct linger lng = { 0, 0 };
-    ksize_t l;
+    KSIZE_T l;
     char buf[64];
     int on=1;
     pasv=0;
@@ -456,7 +456,7 @@ int KProtocolFTP::ftpMkdir( const char *path )
 {
     struct sockaddr addr;
     int sData;
-    ksize_t l;
+    KSIZE_T l;
     fd_set mask;
 
     FD_ZERO(&mask);
