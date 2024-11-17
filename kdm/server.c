@@ -268,7 +268,7 @@ void GetRemoteAddress (d, fd)
     int		    fd;
 {
     char    buf[512];
-    ksize_t    len = sizeof (buf);
+    KSIZE_T    len = sizeof (buf);
 #ifdef STREAMSCONN
     struct netbuf	netb;
 #endif
