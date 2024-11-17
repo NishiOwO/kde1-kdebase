@@ -215,7 +215,7 @@ int GetChooserAddr (addr, lenp)
     int		*lenp;
 {
     struct sockaddr_in	in_addr;
-    ksize_t		len;
+    KSIZE_T		len;
 
     len = sizeof in_addr;
     if (getsockname (chooserFd, (struct sockaddr *)&in_addr, &len) < 0)
