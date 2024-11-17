@@ -59,7 +59,6 @@ install(TARGETS kfm RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES directory.trash directory.autostart directory.templates directory.desktop DESTINATION ${KDE1_DATADIR}/kfm)
 
 install(FILES kfmsu startkde kde unpack
-    PERMISSIONS WORLD_EXECUTE WORLD_READ
     DESTINATION ${KDE1_BINDIR})
 
 install(FILES config/kfmrc config/desktop DESTINATION ${KDE1_CONFDIR})
