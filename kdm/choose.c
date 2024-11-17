@@ -390,7 +390,7 @@ void ProcessChooserSocket (fd)
 {
     int client_fd;
     char	buf[1024];
-    ksize_t	len;
+    KSIZE_T	len;
     XdmcpBuffer	buffer;
     ARRAY8	clientAddress;
     CARD16	connectionType;
